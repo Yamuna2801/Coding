@@ -17,35 +17,33 @@
 //    console.log(reverse);
 //    return reverse;
 // }
-
 // reverseFunction("Yamuna")
-function primeOrNot(num){
-        if(num % 2 !==0){
-            console.log("Given user input is a Prime Number" + num);
-        }else{
-            console.log("Given user input is not a Prime Number" + num);
-        }     
-}
-primeOrNot(5);
 
-function getPrimes(num){
+// function primeOrNot(num){
+//         if(num % 2 !==0){
+//             console.log("Given user input is a Prime Number" + num);
+//         }else{
+//             console.log("Given user input is not a Prime Number" + num);
+//         }     
+// }
+// primeOrNot(5);
+
+//Arrayy methods
+//String methods
+
+function primeOrNot(num) {
     let arrPrime = [];
     let arrNotPrime = [];
-    for (let i = 0; i<=num; i++){
-        if(i % 2 !==0){
+    for (let i = 0; i < num; i++) {
+        if (i % 2 !==0) {
             arrPrime.push(i);
         }else{
             arrNotPrime.push(i);
         }
     }
     console.log(arrPrime + "Prime");
-    console.log(arrNotPrime + "Not Prime")
+    console.log(arrNotPrime + "Not Prime");
 }
-getPrimes(100);
-
-//Arrayy methods
-//String methods
-
-
+primeOrNot(10);
 
 

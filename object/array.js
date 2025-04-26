@@ -13,17 +13,17 @@ function arrayManipulator(){
 }
 arrayManipulator();
 
-// function arrayManipulator2(){
-//     let iceCream = ['Black current', 'Vannila', 'Strawberry', 'ButterScotch', 'Chocolate'];
-//     iceCream.forEach((data, index)=>{
-//     console.log(index + 1 + ". " + data);
-//     })
-//     iceCream.map((data, index)=>{
-//         console.log(index + 1 + ". " + data + " Ice cream");
-//     })
+function arrayManipulator2(){
+    let iceCream = ['Black current', 'Vannila', 'Strawberry', 'ButterScotch', 'Chocolate'];
+    iceCream.forEach((data, index)=>{
+    console.log(index + 1 + ". " + data);
+    })
+    iceCream.map((data, index)=>{
+        console.log(index + 1 + ". " + data + " Ice cream");
+    })
 
-// }
-// arrayManipulator2();
+}
+arrayManipulator2();
 
 function pricing(input) {
     let output = input.map(price => price + 50); 
