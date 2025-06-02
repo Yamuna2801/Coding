@@ -13,16 +13,10 @@
 // mergedArray.sort();
 // console.log(mergedArray);
 
-// const array1 = [1, 2, 3];
-// const array2 = [4, 5, 6];
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
 
-// const mergedArray = array1.concat(array2);
-// console.log(mergedArray); // [1, 2, 3, 4, 5, 6]
+const mergedArray = array1.concat(array2);
+console.log(mergedArray); // [1, 2, 3, 4, 5, 6]
 
-function arrayMerged(input) {
-    let a = [1], b = [2];
-    for (let i = 0; i < input; i++) {
-        console.log(b);
-    }
-}
-arrayMerged(11);
+

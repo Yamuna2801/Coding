@@ -16,5 +16,5 @@ let person = {
 };
 
 // Destructuring
-let {firstName, lastName, dept= 'MCA'} = person;
+let {firstName, lastName, dept= 'MCA M.com'} = person;
 console.log(firstName + lastName, dept);

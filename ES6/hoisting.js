@@ -1,31 +1,31 @@
-// // Update, redeclare, hoisted
+// Update, redeclare, hoisted
 
-// //console.log(a);   // undefined
-// var a = 5;
-// var a =10;
-
-
-// var a1;       // hoisted
-// //console.log(a1); // undefined
-// a1 = 5;
-
-// //update, not able to redeclare, not hoisted
-// //console.log(b);  // ❌ ReferenceError
-// let b = 10;
-
-// //not update, not redeclare, not hoisted
-// //console.log(b1);  // ❌ ReferenceError
-// const b1 = 10;
+//console.log(a);   // undefined
+var a = 5;
+var a =10;
 
 
-// greet(); // Hello
+var a1;       // hoisted
+//console.log(a1); // undefined
+a1 = 5;
 
-// function greet() {
-//   console.log("Hello");
-// }
+//update, not able to redeclare, not hoisted
+//console.log(b);  // ❌ ReferenceError
+let b = 10;
+
+//not update, not redeclare, not hoisted
+//console.log(b1);  // ❌ ReferenceError
+const b1 = 10;
 
 
-// //sayHi(); // ❌ TypeError: sayHi is not a function
+greet(); // Hello
+
+function greet() {
+  console.log("Hello");
+}
+
+
+//sayHi(); // ❌ TypeError: sayHi is not a function
 
 
 var sayHi = function() {
@@ -34,22 +34,22 @@ var sayHi = function() {
 
   var x = 1;
 
-// function test() {
-//   console.log(x); // undefined
-//   var x = 2;
-// }
+function test() {
+  console.log(x); // undefined
+  var x = 2;
+}
 
-// test();
+test();
 
-// console.log(name);
-// var name = "Yamuna";
+console.log(name);
+var name = "Yamuna";
 
-// var a = 10;
+var a = 10;
 
-// function test1() {
-//   console.log(a1);
-//   var a1 = 20;
-// }
-// test1();
+function test1() {
+  console.log(a1);
+  var a1 = 20;
+}
+test1();
 
-// //Due to hoisting, inside test(), var a is hoisted to the top and becomes undefined initially.
+//Due to hoisting, inside test(), var a is hoisted to the top and becomes undefined initially.
