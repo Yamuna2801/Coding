@@ -6,3 +6,4 @@ function thankYou() {
     console.log("Thankyou for visiting!");
 }
 greet(thankYou);
+

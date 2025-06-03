@@ -1,5 +1,9 @@
-const greet = function(name) {
-  console.log("Hello, " + name + "!");
-};
+// const greet = function(name) {
+//   console.log("Hello, " + name + "!");
+// };
 
-greet("Alex");
+// greet("Jas");
+const greet = function (name) {
+  console.log("Hello " + name + "!");
+};
+greet("Jas");

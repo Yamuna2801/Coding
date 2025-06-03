@@ -10,17 +10,9 @@
 // fruit.sort();
 // console.log(fruit); // ["Apple", "Banana", "Banana", "Cherry"]
 
-// let fruit = ["Banana", "Apple", "Cherry"];
-// fruit.sort().reverse();
-// console.log(fruit); // ["Cherry", "Banana", "Apple"]
+let fruit = ["Banana", "Apple", "Cherry"];
+fruit.sort().reverse();
+console.log(fruit); // ["Cherry", "Banana", "Apple"]
 
-let a = 10;
-let b = 5;
 
-let temp = a;
-a = b;
-b = temp;
-
-console.log(b);
-console.log(a);
     
