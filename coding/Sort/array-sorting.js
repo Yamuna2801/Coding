@@ -12,6 +12,7 @@
 
 let fruit = ["Banana", "Apple", "Cherry"];
 fruit.sort().reverse();
+
 console.log(fruit); // ["Cherry", "Banana", "Apple"]
 
 
