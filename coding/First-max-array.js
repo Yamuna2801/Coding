@@ -32,12 +32,20 @@
 
 let arr =[20, 10, 5, 40, 60]
 
+// max = arr[0];
+
+// for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//         console.log(max);
+//         max = arr[i];
+//     }
+// }
+// console.log("Highest number is: ", max);
 max = arr[0];
 
 for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > max) {
-        console.log(max);
-        max = arr[i];
-    }
+    if (arr[i] > max);
+    console.log(max);
+    max = arr[i]
 }
-console.log("Highest number is: ", max);
+console.log("Highest number is ", max);
